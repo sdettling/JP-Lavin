@@ -1,0 +1,49 @@
+#container
+	#header
+		%h1
+			= link_to "JP Lavin - Animator", "/"
+			%ul#contact
+				%li
+					= link_to "JL1384@gmail.com", "mailto:JL1384@gmail.com"
+				%li
+					646.338.8370
+	#portfolio
+		%ul#videos
+			%li#video_1
+				%iframe{:src => "http://player.vimeo.com/video/36863248?title=0&amp;byline=0&amp;portrait=0&amp;color=d5d33", :width => "800", :height => "450", :frameborder => "0"}
+			%li#video_2
+				%iframe
+			%li#video_3
+				%iframe
+		%ul#navigation
+			%li
+				= link_to "Demo Reel", "#", id: "thumb_1"
+			%li
+				= link_to "Totem", "#", id: "thumb_2"
+			%li
+				= link_to "Struck", "#", id: "thumb_3"
+		%ul#descriptions
+			%li#description_1
+				%h3
+					Demo Reel
+				%p
+					Animation demo reel 2012. Please refer to vimeo description for breakdown.
+			%li#description_2
+				%h3
+					Totem
+				%p
+					Senior Thesis Film 2012
+			%li#description_3
+				%h3
+					Stuck
+				%p
+					Junior Thesis Film Collaboration 2011
+	#footer
+		#links
+			%ul
+				%li
+					= link_to "Resume", "JPLavin_resume.pdf", target: "_blank"
+				%li
+					= link_to "Vimeo", "http://www.vimeo.com/jplavin", target: "_blank"
+				%li
+					= link_to "LinkedIn", "http://www.linkedin.com/pub/jp-lavin/38/a41/467", target: "_blank"
