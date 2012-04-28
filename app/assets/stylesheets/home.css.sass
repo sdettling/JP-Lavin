@@ -10,6 +10,8 @@ a
 	text-decoration: none
 	&:hover
 		text-decoration: underline
+.hide
+	display: none
 #container
 	width: 800px
 	margin: 20px auto
@@ -35,16 +37,12 @@ a
 					line-height: 30px
 	#portfolio
 		width: 800px
-		#videos
+		#video
 			width: 800px
 			height: 450px
 			overflow: hidden
 			position: relative
 			margin-bottom: 15px
-			li
-				width: 800px
-				height: 450px
-				position: absolute
 		#navigation
 			display: block
 			height: 100px
@@ -59,6 +57,13 @@ a
 					height: 100px
 					display: block
 					background: #555
+					text-indent: -9999em
+					&#thumb_1
+						background: image_url("thumb_demoreel.png")
+					&#thumb_2
+						background: image_url("thumb_totem.png")
+					&#thumb_3
+						background: image_url("thumb_stuck.png")
 		#descriptions
 			background-color: #3c3c3b
 			height: 55px
