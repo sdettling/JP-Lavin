@@ -1,5 +1,5 @@
 $(function (){
-	var videos = ["40432159","40490466","25833273"];
+	var videos = ["50779531","40490466","25833273"];
 	var curVideo = 1;
 	$('#navigation a').click(function(e) {
 		e.preventDefault();
